@@ -44,7 +44,7 @@ public class CoffeeMachine {
                     // TODO 11: Call the printInfo() method on the Espresso object
                     myEspresso.printInfo();
                     // TODO 12: Call the printEspressoDetails method on the Espresso object
-                    myEspresso.printEspressoDetails(3);
+                    myEspresso.printEspressoDetails(numberOfShots);
                     break;
                 case 2:
 

@@ -4,9 +4,10 @@ public class Espresso extends Coffee {
         super(name, roast, price);
         super.setCaffeineLevel();
         this.numberOfShots = numberOfShots;
+        
     }
 
     public void printEspressoDetails(int servings){
-        System.out.println("You asked for 3 servings! Every serving of Espresso costs 2.5$. Your total bill is " + servings*2.5 + "$");
+        System.out.println("You asked for " + servings + " servings! Every serving of Espresso costs " + this.price + "$. Your total bill is " + servings*this.price + "$");
     }
 }
